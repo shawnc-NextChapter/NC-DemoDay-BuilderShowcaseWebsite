@@ -1,0 +1,678 @@
+[
+  {
+    "id": "michael-peacock",
+    "slug": "michael-peacock",
+    "name": "Michael Peacock",
+    "bio": "As a former US Navy Officer and UNC MPA graduate, I bring a disciplined, mission-oriented approach to full-stack software engineering. I specialize in building robust, AI-augmented applications using modern frameworks like Next.js, SQL, and third-party APIs. I am deeply passionate about forward-deployed engineering, thriving at the intersection of complex operational bottlenecks and user-centric technical solutions that deliver immediate, real-world impact.",
+    "headshot": "/presenters/michael-peacock/headshot.webp",
+    "proudestAccomplishment": "I am most proud of building a production-ready system that uses AI without surrendering human agency. Pathfinder’s deterministic Route Engine—not an LLM—decides sequencing, and only participant-confirmed facts can change a Route. Creating that trust architecture, documenting it as a product constitution, proving it through automated tests, and carrying the application through secure authentication, responsive design, deployment, and a custom production domain represents my growth from writing code to leading a complete product.",
+    "lessonLearned": "I learned that AI creates the most value when it operates within clear boundaries and every result is independently verified. Strong documentation, deterministic rules, test-driven development, and adversarial review turned AI’s speed into dependable engineering—and taught me that disciplined technical leadership matters more than simply generating code quickly.",
+    "project": {
+      "name": "Pathfinder",
+      "tagline": "You're out. Now what? Pathfinder maps what comes next, why it comes next, and what it unlocks.",
+      "category": "Community",
+      "targetAudience": "Pathfinder is designed primarily for people navigating reentry after incarceration, as well as others facing housing instability or documentation barriers—and the community organizations helping them take clear next steps.",
+      "problem": "People returning home after incarceration often face a maze of interdependent requirements—identification, housing, employment, transportation, benefits, and supervision—with no clear place to begin. Missing one prerequisite can delay everything that follows. Pathfinder turns a person’s confirmed circumstances into a transparent, step-by-step Route, highlights the most useful Focus Action, and visibly Reroutes as progress is made or circumstances change. This helps participants regain momentum and gives community organizations a consistent, trustworthy way to guide support without replacing human judgment.",
+      "keyFeatures": [
+        "Personalized Route and Focus Action based only on confirmed circumstances, showing the clearest next step and why it matters.",
+        "Transparent Rerouting that updates the Route as progress is made and clearly explains what changed and which Actions became available.",
+        "Participant-controlled Fact confirmation and Route History, ensuring unverified information never changes guidance while preserving a traceable record of progress."
+      ],
+      "biggestChallenge": "The greatest challenge was turning complex, interdependent reentry requirements into guidance that feels simple without becoming a black box. Pathfinder needed a deterministic Route Engine that produces consistent, explainable next steps from confirmed facts, while keeping AI strictly outside sequencing and confirmation decisions. The result balances technical rigor, participant control, and an approachable experience.",
+      "futurePlans": "I would run a structured pilot with reentry participants and community partners, publish a de-identified validation report, and use the findings to refine Route and Reroute comprehension. I would then add jurisdiction-specific resource connections, multilingual support, and privacy-preserving organizational insights so providers can identify service gaps without exposing or scoring individual participants.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Docker",
+        "Neon",
+        "Vercel",
+        "Groq API",
+        "Drizzle ORM",
+        "Auth.js/NextAuth",
+        "Resend",
+        "Zod",
+        "Vitest",
+        "Playwright",
+        "Turborepo",
+        "pnpm",
+        "GitHub Actions",
+        "and Cloudflare DNS."
+      ],
+      "aiUsage": [
+        "Planning",
+        "UI Design",
+        "Architecture",
+        "Code Generation",
+        "Debugging",
+        "Documentation",
+        "Learning Concepts",
+        "Testing",
+        "Refactoring",
+        "Multi-Agent Orchestration",
+        "Adversarial Review",
+        "Security Auditing",
+        "Deployment Validation"
+      ],
+      "liveUrl": "https://pathfinder.windwardline.com",
+      "repositoryUrl": "https://github.com/windwardline/pathfinder",
+      "requiresLogin": true,
+      "screenshots": {
+        "desktop": "/presenters/michael-peacock/desktop.webp",
+        "mobile": "/presenters/michael-peacock/mobile.webp"
+      }
+    },
+    "links": {
+      "github": "https://github.com/windwardline",
+      "linkedin": "https://www.linkedin.com/in/michaellynnpeacock/",
+      "portfolio": "https://portfolio.windwardline.com"
+    },
+    "publishing": {
+      "approved": true,
+      "displayOrder": 0,
+      "permissions": []
+    }
+  },
+  {
+    "id": "jacqueline-delgado",
+    "slug": "jacqueline-delgado",
+    "name": "Jacqueline Delgado",
+    "bio": "Three decades in operations and human services taught me the expensive failures are the quiet ones. Now I build with AI, which mostly means learning whose conventions I inherited: calm returns violet because someone decided calm was violet, and \"reliable data\" is faithful to a moment that's already passed. Away from the keyboard I keep bees, and at it I build for the problems I can reach. I scrutinize the input harder than the output, not because I distrust the model but because I know what it's reflecting back.",
+    "headshot": "/presenters/jacqueline-delgado/headshot.webp",
+    "proudestAccomplishment": "The part I am most proud of is the architectural design — the two tables, the communication between the two apps, the theme, the color choice, the layout, and the features. Also running Vitest on the logic, because it showed me the poor behavior my vibe-coded version 2 had.",
+    "lessonLearned": "I learned that planning matters. It saves me from debugging a lot, and headaches later. Creating md files not only to reference, but also to guide and correct understanding is imperative. It was incredibly easy to create the UI with the md files; it had the color choice, the pin choice, the font choice, the position, the layout. The mark down files save so much time. Although, md files takes time to read in VS code and edit, and they get long, mark down files help organize my thoughts.",
+    "project": {
+      "name": "Narley",
+      "tagline": "Every pin on Narley's app was entered by the provider that's standing behind it. Enter your zip code and find shelter, food, employment opportunity or resources that are actually there.",
+      "category": "Community",
+      "targetAudience": "The apps are for justice-impacted people seeking shelter, food, employment, and resources after release. And providers and reentry organizations — where one edit replaces 20 phone calls and a wasted trip. Notes are as detailed as the provider likes.",
+      "problem": "Resource information moves slower than the resources do. A job fair, an apartment opening, a landlord taking applications — those windows are measured in days, and word goes out by mail or by a provider making 20 to 50 calls. It arrives after it's over.\nThe second problem is staleness. A mobile clinic changes hours. A tent drive runs out on the 20th but restarts in August. A car repair fund closes in June, reopens August 1st. Nobody updates the flyer, so people ride across town to a closed door.\nThe third is that the relationship ends at the appointment. Narley keeps it open: the provider edits the pin and leaves a note, the reader sees what's true today, saves the resource, and sets a reminder for the date it comes back. Goodwill of Southern New England staff shaped half the categories.",
+      "keyFeatures": [
+        "Providers edit their own pins in real time. When a resource fills, changes hours, or closes for the season, one edit updates everyone holding the app — replacing 20 to 50 phone calls and the trips those calls were meant to prevent.",
+        "A +Custom category for resources no taxonomy predicts — a tent, a coat drive, a one-day repair fund. Providers attach notes as detailed as they want: out until August 1st, accepting applications again in the fall, hours changed this week.",
+        "Readers search by ZIP, save a resource, and set reminders for the date it reopens. A fund closed in June with a note saying August 1st becomes a reminder on August 1st — so a dead window turns into a return date instead of a wasted trip."
+      ],
+      "biggestChallenge": "The hardest part wasn't the data — it was the AI. When a reader reported a resource closed, the model went hunting for evidence and found the reliable-but-stale sources: the live directory listing, the cached hours, the site that still resolves. Then it argued the reader was wrong. It wanted the org open because the internet still says so. I had to script the trust hierarchy explicitly: the person standing at the door outranks the website. Reliable isn't current, and the model had to be told.",
+      "futurePlans": "Two things, both blocked by paid Google APIs rather than by design. Translation at read time, not write time: a case manager pins in English, the reader sees the language they've set. The provider doesn't have to be bilingual to serve a bilingual client. And in-app directions — walking, biking, transit, driving on the Expo map, instead of sending people out to Google Maps. For someone without a car, the bus route is the difference between a resource that exists and one they can reach.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "OpenAI API",
+        "Anthropic API",
+        "Neon",
+        "Vercel",
+        "React Native",
+        "Expo SDK 54",
+        "Prisma 7",
+        "Vitest (458 tests)"
+      ],
+      "aiUsage": [
+        "Coding",
+        "refactoring",
+        "documenting",
+        "debugging",
+        "Testing",
+        "Learning Concepts",
+        "Planning"
+      ],
+      "liveUrl": "https://narley.vercel.app/",
+      "repositoryUrl": "https://github.com/jdbostonbu-ops/Narley",
+      "requiresLogin": true,
+      "screenshots": {
+        "desktop": "https://i.imgur.com/NAelpLL.gif",
+        "mobile": "https://i.imgur.com/zenNpyn.jpeg"
+      }
+    },
+    "links": {
+      "github": "https://github.com/jdbostonbu-ops",
+      "linkedin": "https://www.linkedin.com/in/jacqueline-delgado-6a7bb7250/",
+      "portfolio": "https://jacquelinedelgado.com/"
+    },
+    "publishing": {
+      "approved": true,
+      "displayOrder": 0,
+      "permissions": []
+    }
+  },
+  {
+    "id": "darla-brown",
+    "slug": "darla-brown",
+    "name": "Darla Brown",
+    "bio": "Writer, AI Native Engineer, & software engineer who combines creativity with a passion for solving meaningful problems. After building a career as an Administrative Business Partner and Administrative Assistant, she transitioned into software engineering to develop innovative solutions in healthcare and digital wellness, including projects such as Veri-I and Wellness. She is also the author of 3 novels and 6 screenplays, and approaches every challenge with curiosity, persistence, and continuous learning, often joking that her best ideas come after \"sleeping on it\" and attending \"Google & YouTube University.\"",
+    "headshot": "/presenters/darla-brown/headshot.webp",
+    "proudestAccomplishment": "Building smart watch app",
+    "lessonLearned": "AI is powerful but requires verification.",
+    "project": {
+      "name": "Wellness Insight",
+      "tagline": "Wellness Insight is a wearable wellness platform that uses personalized haptic technology and future AI-powered insights to support emotional regulation, healthy routines, and successful community reentry for neurodivergent,  justice-involved individuals and all communities, especially youth.",
+      "category": "Health and Wellness",
+      "targetAudience": "\nWellness Insight is designed for neurodivergent individuals and justice-involved individuals, along with the caregivers, families, mentors, and community organizations that support their emotional well-being and successful community reentry.\n",
+      "problem": "Many neurodivergent and justice-involved individuals face challenges with emotional regulation, maintaining healthy routines, and staying connected to their support networks during community reentry. Existing wearable devices primarily focus on fitness rather than everyday wellness and emotional support. Wellness™ addresses this gap by providing personalized haptic communication, wellness reminders, and a companion mobile app that helps users build healthy habits, strengthen support systems, and promote independence. The platform is designed to complement, not replace, professional healthcare and community services.",
+      "keyFeatures": [
+        "Personalized Haptic Wellness Support: Users can create customized vibration patterns for grounding exercises, breathing reminders, medication schedules, appointments, focus cues, and wellness check-ins wearing a magnet wrist watch band.",
+        "Companion Support Network: Approved caregivers, mentors, family members, or support professionals can send discreet wellness check-ins and encouragement through the companion mobile app, helping users stay connected without interrupting their daily lives.",
+        " Future AI-Powered Wellness Insights: Future versions will analyze wellness trends and routine patterns to provide personalized recommendations that help users maintain healthy habits and identify opportunities for additional support, reminder medication, doctor appointment using a discreet like a coffee cup for medicine and cross reminder doctor appointment. The tapping press firm for 1 minute and release this is called acupressure point."
+      ],
+      "biggestChallenge": "The biggest challenge is designing a platform that provides meaningful, personalized wellness support while protecting user privacy, ensuring secure communication between devices, and creating an intuitive experience that works for individuals with diverse needs. Future AI features must also be transparent, ethical, and designed to support, not replace, human decision-making.\n",
+      "futurePlans": "A another month, I would complete a functional prototype of the Wear OS smartwatch and companion mobile app, conduct usability testing with community partners and behavioral health professionals, and incorporate feedback to refine the user experience. I would also begin developing the caregiver dashboard and lay the foundation for future AI-powered wellness insights. And getting 20 real user as tester, before it shipping Google play store. And built it out for Apple Watch",
+      "techStack": [
+        "Firebase",
+        "Java",
+        "Kotlin",
+        "Google Cloud"
+      ],
+      "aiUsage": [
+        "Refactoring"
+      ],
+      "liveUrl": "n/a",
+      "repositoryUrl": "https://github.com/darlanebrown/wellness",
+      "requiresLogin": false,
+      "screenshots": {
+        "desktop": "/presenters/darla-brown/desktop.webp",
+        "mobile": "/presenters/darla-brown/mobile.webp"
+      }
+    },
+    "links": {
+      "github": "https://github.com/darlanebrown",
+      "linkedin": " linkedin.com/in/darla-brown-b1383943",
+      "portfolio": "n/a"
+    },
+    "publishing": {
+      "approved": true,
+      "displayOrder": 0,
+      "permissions": []
+    }
+  },
+  {
+    "id": "summer-halsey",
+    "slug": "summer-halsey",
+    "name": "Summer Halsey",
+    "bio": "I'm a full-stack engineer passionate about building software that solves meaningful real-world problems. My approach starts with architecture, documentation, and thoughtful system design before implementation, using AI to improve engineering quality rather than replace engineering judgment. I'm especially interested in developing secure, maintainable applications that make complex information easier for people to understand and use.",
+    "headshot": "/presenters/summer-halsey/headshot.webp",
+    "proudestAccomplishment": "I'm most proud of building an AI system designed for trust. By grounding every response in users uploaded documents and prioritizing privacy from the start, Verity is better suited for high-consequence situations than a generic AI chatbot.",
+    "lessonLearned": "I learned that good architecture gives AI direction. The more clearly I defined the system, constraints, and requirements upfront, the better the AI-assisted development process became.",
+    "project": {
+      "name": "Verity",
+      "tagline": "Don't lose your freedom to a technicality. Upload your documents, ask anything, and stop the guesswork.",
+      "category": "Legal Help",
+      "targetAudience": "Individuals on probation or parole, especially those managing multiple supervision documents across counties or states. Verity also supports attorneys, case managers, reentry organizations, and family members assisting with successful reentry.",
+      "problem": "Probation and parole documents are often written in dense legal language that's difficult to understand during an already stressful transition back into the community. Missing a reporting requirement, misunderstanding a travel restriction, or overlooking a deadline can have serious consequences. While AI has made legal information more accessible, generic chatbots can hallucinate or provide inaccurate guidance—creating unnecessary risk in high-consequence situations. Verity addresses this by helping users understand their own supervision documents through plain-language, source-grounded explanations tied directly to the documents they've uploaded.",
+      "keyFeatures": [
+        "OCR-Powered Document Processing  Upload supervision documents from your phone or computer. Verity automatically extracts, organizes, and structures the content, making complex legal paperwork searchable and easier to navigate.",
+        "Source-Grounded AI Chat\n\nAsk questions about one or multiple uploaded documents at the same time. Every response is grounded in the user's documents—not the AI's memory—to provide explanations tied directly to the original source.",
+        "Privacy-First Document Workspace  Manage supervision documents in one secure workspace with ownership-based access, optional accounts, and automatic cleanup for anonymous sessions to help protect sensitive personal information."
+      ],
+      "biggestChallenge": "The biggest challenge was designing an AI system people could trust in high-consequence situations. Rather than relying on a generic chatbot, I built Verity around source-grounded responses tied directly to uploaded documents, while treating privacy, document ownership, OCR quality, and secure data handling as architectural requirements instead of optional features.",
+      "futurePlans": "I'd expand Verity beyond probation and parole by supporting additional legally binding documents such as custody agreements, rental contracts, employment agreements, and court orders. I'd also improve OCR accuracy, multilingual support, and document organization so users can securely manage multiple documents in one workspace and ask questions across them with greater confidence.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "OpenAI API",
+        "Tailwind CSS",
+        "Neon",
+        "Vercel",
+        "OpenAI Vision (OCR)",
+        "Prisma"
+      ],
+      "aiUsage": [
+        "Architecture"
+      ],
+      "liveUrl": "https://my-verity.com/",
+      "repositoryUrl": "https://github.com/summer-marie/conditions-translator.git",
+      "requiresLogin": false,
+      "screenshots": {
+        "desktop": "/presenters/summer-halsey/desktop.webp",
+        "mobile": "/presenters/summer-halsey/mobile.webp"
+      }
+    },
+    "links": {
+      "github": "https://github.com/summer-marie",
+      "linkedin": "https://www.linkedin.com/in/summer-halsey/",
+      "portfolio": "https://shalsey.dev/"
+    },
+    "publishing": {
+      "approved": true,
+      "displayOrder": 0,
+      "permissions": []
+    }
+  },
+  {
+    "id": "joanne-liszewski",
+    "slug": "joanne-liszewski",
+    "name": "Joanne Liszewski",
+    "bio": "I've been building since 2014, starting with GUI interfaces in C++ and JavaScript, and because technology evolves so rapidly, I never stop learning. That early focus on user-centered design grew into full-stack development: React, Next.js, AI workflows, and accessible experiences shaped by my lived experience as a visually impaired developer. What drives me is seeing something I built make a difference. I specialize in apps that uplift communities, like Be In The Know: plain-English legal rights education for reentry, powered by JO, an AI assistant citing only human-reviewed legal sources.",
+    "headshot": "/presenters/joanne-liszewski/headshot.webp",
+    "proudestAccomplishment": "Turning a self-authored audit into action almost overnight. On July 11th I wrote a full gap analysis against my own README — flagging that the embedding provider would be unreachable in production, quotas were not enforced, cron routes were spoofable, and chat history vanished on refresh. Every one of those was fixed within a day, without loosening the constitution I set for JO: no answer without an approved, cited source, and no content entering the corpus without a human approving it. Watching that discipline hold — architecture-level guardrails that survive rapid iteration, backed by a test suite and CI that catch regressions — while turning a solo project into something a vulnerable population can actually trust, is what I'm proudest of.",
+    "lessonLearned": "Planning matters. ",
+    "project": {
+      "name": "Be in the Know",
+      "tagline": "\"Be In The Know is a free web app that turns the legal rights of 20 million Americans with records into plain English — with an AI guide, JO, that answers only from the law as it's currently on the books in your state, and cites it.\"",
+      "category": "Education",
+      "targetAudience": "Be In The Know is built for justice-impacted people navigating reentry, anyone on parole or probation, rebuilding after incarceration, or facing barriers to voting, housing, or work,  plus the families and support organizations standing with them.",
+      "problem": "People navigating reentry face fifty states' worth of rules about voting, expungement, housing, employment, and supervision. The information is public — but scattered, written at a college reading level, and different in every state. Most people act on rumor or assume the answer is no, and quietly give up rights the law already gives them. Generic AI chatbots make it worse: they hallucinate statutes with confidence, and here a wrong answer can cost someone their vote, home, or job. Be In The Know turns each state's current law into plain, sixth-grade-level English through JO, an assistant built so it can't guess: it answers only from a human-reviewed corpus of official law, cites every source, and refers users to legal aid when it doesn't know.",
+      "keyFeatures": [
+        "Source-grounded chat that can't guess: JO answers exclusively from retrieved, human-approved statute text and plain-English summaries — never from model memory. Every answer cites its sources, an output guard replaces any uncited substantive answer with a response built directly from the sources, and JO refuses and routes to legal aid when no approved source covers the question.",
+        "Human-gated content pipeline with legislative monitoring: an automated weekly pipeline watches legislative activity in all 50 states (LegiScan) and flags laws that may have changed into a review queue — but nothing enters JO's answer corpus until a person reviews and approves it. Automation fetches, chunks, and embeds; only a human can approve.",
+        "Privacy-first design for a vulnerable population: anonymous by default with server-enforced daily quotas, no raw IP addresses stored (salted hashes only), no tracking cookies — plus optional free accounts with private cross-device chat history and one-click permanent deletion of everything."
+      ],
+      "biggestChallenge": "Making an LLM trustworthy enough for legal information. Telling the model to be careful isn't enough — correctness had to be architectural: retrieval-first design where the model never decides what the law is, model-labeled vector search so mixed embeddings can't corrupt retrieval, an output guard that rejects ungrounded answers, prompt-injection hardening proven by a red-team battery, and a review gate automation can't bypass. The hard part wasn't making JO answer — it was making it refuse.",
+      "futurePlans": "Spanish-language JO, on a language-agnostic foundation. Our embedding model already maps Spanish questions into the same vector space as the English legal corpus, so retrieval needs no redesign — the build is generation: JO answers in the user's language while still drawing only from approved English law and citing every source, with a disclaimer on every translated answer that the official source is in English, plus a persistent language toggle and fully translated UI.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Vercel",
+        "Google Gemini API",
+        "MongoDB Atlas Vector Search",
+        "LegiScan Public API",
+        "Vercel Cron"
+      ],
+      "aiUsage": [
+        "Code Generation"
+      ],
+      "liveUrl": "https://beintheknowjustaskjo.com/",
+      "repositoryUrl": "https://github.com/Jozewski/beintheknow.git",
+      "requiresLogin": false,
+      "screenshots": {
+        "desktop": "/presenters/joanne-liszewski/desktop.webp",
+        "mobile": "https://i.postimg.cc/KkTksN8k/Screenshot.png"
+      }
+    },
+    "links": {
+      "github": "https://github.com/Jozewski",
+      "linkedin": "https://www.linkedin.com/in/joanne-liszewski-437036125/",
+      "portfolio": "https://joanneliszewski.com"
+    },
+    "publishing": {
+      "approved": true,
+      "displayOrder": 0,
+      "permissions": []
+    }
+  },
+  {
+    "id": "destiny-mills",
+    "slug": "destiny-mills",
+    "name": "Destiny Mills",
+    "bio": "Hi, I’m Destiny Mills, a full-stack software developer with a background in legal support and paralegal studies. I’m passionate about building AI-powered tools that solve real-world problems, especially in legal access, education, and healthcare. I enjoy turning complex workflows into intuitive, user-centered applications that make information more accessible and meaningful",
+    "headshot": "/presenters/destiny-mills/headshot.webp",
+    "proudestAccomplishment": "I’m most proud of building an AI-powered legal education platform around a real problem I experienced firsthand. The application uses a structured intake process to generate personalized legal research roadmaps, translates complex legal language into plain English, and supports both individual and correctional institution users through secure role-based access and AI integration.",
+    "lessonLearned": "I learned that solving a real user problem is more important than adding features. AI is a powerful tool, but it works best when paired with thoughtful system design, user feedback, and clear guardrails to ensure the information is educational, accurate, and easy to understand.",
+    "project": {
+      "name": "CaseCompass AI",
+      "tagline": "CaseCompass AI is an AI-powered legal education platform that personalizes legal research, translates complex case law into plain language, and helps users confidently navigate the legal system.",
+      "category": "Legal Help",
+      "targetAudience": "CaseCompass AI is designed for individuals navigating the legal system, correctional institutions, legal aid organizations, educators, and anyone who needs legal information explained in clear, understandable language.",
+      "problem": "CaseCompass AI addresses the gap between access to legal information and the ability to understand it. Millions of self-represented individuals—including incarcerated people, legal aid clients, and those who cannot afford an attorney—struggle to navigate complex legal research, court opinions, and legal terminology. Existing research tools assume legal knowledge, leaving many without meaningful guidance. CaseCompass AI transforms legal research into an educational, step-by-step experience that helps users understand the law, organize their research, and confidently navigate the legal system.",
+      "keyFeatures": [
+        "AI-guided legal intake that builds a personalized legal research roadmap.",
+        "Plain-language explanations of court opinions, legal terminology, and case citations.",
+        "Educational legal research tools with source citations that teach users how to research—not replace an attorney."
+      ],
+      "biggestChallenge": "Building an AI platform that simplifies complex legal information while remaining accurate, educational, and transparent. The system must avoid giving legal advice, ground every response in authoritative legal sources, adapt explanations to different literacy levels, and maintain security for both public and correctional institution deployments. Balancing usability with legal reliability has been the project’s biggest challenge.\n\nThese responses highlight the educational mission, technical complexity, and real-world impact qualities that tend to resonate well with both technical reviewers and potential industry partners.",
+      "futurePlans": "Given another month, I would integrate Westlaw alongside CaseCompass AI so users could seamlessly move between AI-guided research and primary legal sources. I would also add bilingual support to make the platform accessible to a broader population, helping overcome both language and literacy barriers while improving meaningful access to legal research.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Supabase",
+        "OpenAI API",
+        "Anthropic API",
+        "Tailwind CSS",
+        "Vercel"
+      ],
+      "aiUsage": [
+        "Architecture"
+      ],
+      "liveUrl": "https://casecompassai.com",
+      "repositoryUrl": "https://github.com/destinyheather92/CaseCompassAI",
+      "requiresLogin": true,
+      "screenshots": {
+        "desktop": "/presenters/destiny-mills/desktop.webp",
+        "mobile": "/presenters/destiny-mills/mobile.webp"
+      }
+    },
+    "links": {
+      "github": "https://github.com/destinyheather92",
+      "linkedin": "https://linkedin.com/in/destinyhmills225",
+      "portfolio": "https://dmillsportfolio.vercel.app/"
+    },
+    "publishing": {
+      "approved": true,
+      "displayOrder": 0,
+      "permissions": []
+    }
+  },
+  {
+    "id": "phillip-anthony",
+    "slug": "phillip-anthony",
+    "name": "Phillip Anthony",
+    "bio": "I'm a numbers person at heart. Prediction markets and crypto taught me to care about calibration, not just predicting an outcome but knowing how much to trust the prediction. That obsession became PhilaCourtOutcomes, a site that turns public Philadelphia court dockets into real outcome and sentencing distributions by charge and judge. I spent seven years in IT and now build full-stack with React, TypeScript, and Postgres. ",
+    "headshot": "/presenters/phillip-anthony/headshot.webp",
+    "proudestAccomplishment": "The pipeline itself. Real court data is brutally messy, print-formatted PDFs, inconsistent layouts, records split across page breaks, no API anywhere. I built every stage from collection to parsing to aggregation to the live public site, and it runs as one coherent system that turns thousands of raw docket sheets into statistics a non-lawyer can trust.",
+    "lessonLearned": "Plan before code, every time. Every task started as a written spec with numbered acceptance criteria, and the implementation plan was reviewed before a single line was written. It felt slow and saved the project repeatedly.",
+    "project": {
+      "name": "Phila Court Outcomes",
+      "tagline": "Phila Court Outcomes shows how Philadelphia criminal cases actually resolved. It provides historical outcome and sentencing breakdowns by charge and judge, built from public court dockets, it helps people facing charges see real data instead of guesswork.",
+      "category": "Legal Help",
+      "targetAudience": "Primarily non-lawyers facing criminal charges in Philadelphia who need plain-language context about how cases like theirs historically ended. Secondarily, defense attorneys, journalists, and researchers studying court outcomes.",
+      "problem": "People facing criminal charges in Philadelphia have almost no way to know what typically happens in cases like theirs. Court dockets are public but scattered across thousands of individual PDFs, written in legal jargon, and impossible to aggregate by hand. Defendants make high-stakes decisions (such as whether to take a plea or what to expect at sentencing) with no factual baseline. Phila Court Outcomes scrapes, parses, and aggregates Municipal Court and Court of Common Pleas dockets into searchable, charge-level outcome and sentencing distributions. The data is presented in plain language with honest disclosures about data coverage, offering no predictions or legal advice, but simply showing what the record says.",
+      "keyFeatures": [
+        "Charge-level outcome distributions. Search any Philadelphia criminal charge and see how cases with that charge historically resolved, whether dismissed, withdrawn, pled guilty, or acquitted, built from thousands of parsed court dockets.",
+        "Sentencing breakdowns for convictions. When cases like a given charge ended in conviction, see what sentences were actually imposed.",
+        "Judge-level views where available. This provides the same outcome data filterable by the presiding judge, with strict framing safeguards."
+      ],
+      "biggestChallenge": "The hardest problem wasn't technical, it was statistical honesty. Recent cases skew guilty because dismissals take longer to resolve, so a naive site would quietly overstate conviction rates. I built the product around that reality, with date-window disclosures, sample-size labels on every result, and strict copy rules banning predictions and rankings, so a non-lawyer sees true numbers framed truthfully.",
+      "futurePlans": "Next up is the professional side of the data. Outcome statistics by defense attorney and prosecutor, so someone facing charges can see real track records instead of marketing claims, plus an attorney-facing dashboard with deeper filters and exports as the paid tier.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Node.js",
+        "Python",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Docker",
+        "Fastify",
+        "Kysely",
+        "pnpm workspaces",
+        "pdfplumber",
+        "Playwright",
+        "Render",
+        "Cloudflare"
+      ],
+      "aiUsage": [
+        "Planning",
+        "UI Design",
+        "Architecture",
+        "Code Generation",
+        "Debugging",
+        "Documentation",
+        "Learning Concepts",
+        "Testing",
+        "Refactoring"
+      ],
+      "liveUrl": "https://philacourtoutcomes.org/",
+      "repositoryUrl": "https://github.com/philay3/Phila-Court-Analytics/tree/main",
+      "requiresLogin": false,
+      "screenshots": {
+        "desktop": "https://i.imgur.com/9lt2gUm.png",
+        "mobile": "/presenters/phillip-anthony/mobile.webp"
+      }
+    },
+    "links": {
+      "github": "https://github.com/philay3",
+      "linkedin": "https://www.linkedin.com/in/phillip-anthony-75280778/",
+      "portfolio": "https://www.philanthony.dev"
+    },
+    "publishing": {
+      "approved": true,
+      "displayOrder": 0,
+      "permissions": []
+    }
+  },
+  {
+    "id": "diana-busch",
+    "slug": "diana-busch",
+    "name": "Diana Busch",
+    "bio": "I'm a full-stack developer and CS student based in Prescott, AZ, with a genuine love of learning. I enjoy digging into complicated problems and finding a simpler way through them. Every project is a chance to pick up a new skill or way of thinking, and that curiosity is what keeps me building.",
+    "headshot": "/presenters/diana-busch/headshot.webp",
+    "proudestAccomplishment": "Verifying the law myself. I read the actual statutes for dozens of states on official legislature sites — LexisNexis pulls, .gov PDFs, session laws — and caught errors that would have told real people the wrong thing about their own records: repealed chapters, missing 2025 reforms, eligibility logic inverted. I went from someone who'd never read a statute to someone who can diff one against a rules engine and spot a false-eligibility trap. That skill wasn't in the bootcamp.",
+    "lessonLearned": "Plausible isn't provable. AI can draft at a scale no person can, but for anything high-stakes, the draft is where the work starts, not where it ends. Primary sources are the only ground truth.",
+    "project": {
+      "name": "Turnleaf",
+      "tagline": "Fifty states of record-clearing law. One plain answer, and the form to file next. Turnleaf.",
+      "category": "Legal Help",
+      "targetAudience": "People with past criminal convictions who want to know if they're eligible to have their record cleared, and what steps to take next — across all 50 states, regardless of where they live or how complicated their state's expungement laws are.",
+      "problem": "Expungement and record-clearing laws vary wildly by state and are often buried in dense legal language that's hard for the average person to parse. Someone with a past conviction may be eligible to clear their record and unlock a better job and housing opportunities, but has no easy way to find out — they'd need to track down their state's specific statutes, figure out which ones apply to their situation, and navigate confusing legal terminology just to get a straight answer. Turnleaf solves this by giving people a free, plain-language eligibility check for all 50 states, backed by verified statute citations, plus the actual form they need to file next. No lawyer, no guesswork — just a clear answer and a next step",
+      "keyFeatures": [
+        "Statute-cited eligibility engine — a 50-state decision-tree rules engine where every answer traces back to the actual statute, with verified source links and retrieval dates shown in the UI. Not scraped, not summarized from blogs — you read the legislature sites yourself.",
+        "Plain-language answers with the next step attached — the screener doesn't just say \"eligible under 18 Pa.C.S. § 9122.\" It translates the legal result into a plain answer and points to the form and venue to file next, so someone leaves knowing what to actually do.",
+        "Free, anonymous, and instant — no lawyer consult, no account, no fee to find out. PDF summary generates client-side so nothing sensitive leaves the browser."
+      ],
+      "biggestChallenge": "The data itself. Expungement law is 50 different statutory schemes, and an AI-generated first draft can only ever be plausible — it can't be trusted with repealed statutes, fresh reforms, or citation accuracy. Wrong answers here cause real harm. So I built a verification pipeline: I read each state's statutes on official legislature sites, diff them against the draft rules, and encode fixes with per-statute citations and verified dates. Turning plausible legal data into provable legal data became the whole project.",
+      "futurePlans": "Phone verification of the procedural layer — fees, forms, and filing venues that statutes don't always specify. I'd call clerks' offices in each state to confirm what the law says actually matches what happens at the counter. After that: auto-generated, court-ready petition forms pre-filled from the screener's answers, so the \"form to file next\" isn't just linked — it's done.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Neon",
+        "Vercel",
+        "Groq",
+        "Vitest",
+        "jsPDF",
+        "Lucide"
+      ],
+      "aiUsage": [
+        "Architecture",
+        "Code Generation",
+        "Documentation",
+        "Learning Concepts",
+        "Testing"
+      ],
+      "liveUrl": "https://www.turnleaf.us/",
+      "repositoryUrl": "https://github.com/DBusch-Developer/turnleaf",
+      "requiresLogin": false,
+      "screenshots": {
+        "desktop": "/presenters/diana-busch/desktop.webp",
+        "mobile": "/presenters/diana-busch/mobile.webp"
+      }
+    },
+    "links": {
+      "github": "https://github.com/DBusch-Developer",
+      "linkedin": "https://www.linkedin.com/in/diana-busch-a17882363/",
+      "portfolio": "https://diana-busch.com/"
+    },
+    "publishing": {
+      "approved": true,
+      "displayOrder": 0,
+      "permissions": []
+    }
+  },
+  {
+    "id": "jordon-walsh",
+    "slug": "jordon-walsh",
+    "name": "Jordon Walsh",
+    "bio": "After spending over a year evaluating AI models on a wide variety of projects as a contractor for data annotation platforms, I realized my real interest lies in the underlying technology and code that makes these systems work. I am currently building my skills as a software developer to make that transition. My focus is on learning how to leverage AI to build reliable, practical tools that solve real-world problems.",
+    "headshot": "/presenters/jordon-walsh/headshot.webp",
+    "proudestAccomplishment": "I’m most proud of building an accessible, responsive application that guides users through a complex legal form, uses AI to help draft accurate personal narratives without inventing facts, and generates completed PDF documents while keeping user data on their device.\n\nI can genuinely see how this tool would help someone do the (niche) task it aims to solve. ",
+    "lessonLearned": "I learned that controlling AI when you want hyper specific UI becomes a real problem if you haven't specifically thought out for yourself *exactly* what that UI must look like. It's difficult enough when you are sure, but when you aren't it can become a huge issue. ",
+    "project": {
+      "name": "Surepath",
+      "tagline": "SurePath helps individuals with past convictions pursue a wide variety of licensed careers confidently by generating the exact, print-ready documents needed to request official criminal history pre-evaluations from state boards to determine eligibility. (",
+      "category": "Employment",
+      "targetAudience": "Individuals re-entering the workforce who want to upskill into licensed career paths, but need to know if their background will prevent licensure before spending time and money on education and training.",
+      "problem": "Individuals re-entering the workforce often avoid pursuing licensed careers because they fear their criminal record will automatically disqualify them. Many states offer official pre-evaluation pipelines so people can find out if they are eligible before spending time and money on training. However, the process is archaic and frustrating—requiring applicants to manually fill out dozens of pages of repetitive documents for every single license they want to consider. SurePath solves this by digitizing the pipeline. It allows users to input their information once, get help framing their background from an AI assistant, and instantly generate the exact, ready-to-mail PDF packets required by state licensing boards to obtain an official eligibility determination.",
+      "keyFeatures": [
+        "Users input their personal and background information just once to instantly generate fully populated, print-ready application packets for multiple licensed careers simultaneously.",
+        "An integrated AI chat assistant helps users reflect on and articulate the circumstances around their past convictions, transforming their raw story into a clear, professional narrative that state licensing boards understand and respect.",
+        "SurePath doesn't just fill out PDFs; it generates detailed, occupation-specific cover sheets that give users step-by-step physical instructions on exactly where and how to mail their packets to complete the submission process."
+      ],
+      "biggestChallenge": "The biggest technical challenge was building a mapping engine to bridge dynamic user data with rigid government PDFs. These state documents are strictly designed to be filled out by hand. Structuring the backend to accurately map a single set of user inputs across a wide variety of differently formatted, occupation-specific PDFs—ensuring the final output is flawlessly aligned and compliant for official mailing—required complex data structuring and precise PDF manipulation.",
+      "futurePlans": "I would expand the database to map out and integrate pre-evaluation pipelines for more states that the current 1 covered by the MVP. ",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Node.js",
+        "OpenAI API",
+        "Tailwind CSS",
+        "Vercel",
+        "Vite",
+        "Vercel AI SDK",
+        "PDF-Lib",
+        "Zod",
+        "Vitest"
+      ],
+      "aiUsage": [
+        "Planning",
+        "UI Design",
+        "Architecture",
+        "Code Generation",
+        "Debugging",
+        "Documentation",
+        "Learning Concepts",
+        "Testing",
+        "Refactoring"
+      ],
+      "liveUrl": "https://www.asurepath.com",
+      "repositoryUrl": "https://github.com/InvoluntaryRecombinator/surepath",
+      "requiresLogin": false,
+      "screenshots": {
+        "desktop": "/presenters/jordon-walsh/desktop.webp",
+        "mobile": "/presenters/jordon-walsh/mobile.webp"
+      }
+    },
+    "links": {
+      "github": "https://github.com/InvoluntaryRecombinator",
+      "linkedin": "https://www.linkedin.com/in/jordan-walsh-dev",
+      "portfolio": "https://www.jordoncodes.dev"
+    },
+    "publishing": {
+      "approved": true,
+      "displayOrder": 0,
+      "permissions": []
+    }
+  },
+  {
+    "id": "penn-cameron-porterfield",
+    "slug": "penn-cameron-porterfield",
+    "name": "Penn Cameron Porterfield",
+    "bio": "Hey there! My name is Penn. I am a software developer of over 8 years, initially focusing on full-stack web, and now pivoting to more network and systems based challenges. I greatly enjoy work that intersects with Linux and privacy. Currently working to get an out-of-tree Rust SPI driver up-streamed, slowly, while learning to be a positive influence on the FOSS ecosystem as a whole.",
+    "headshot": "/presenters/penn-cameron-porterfield/headshot.webp",
+    "proudestAccomplishment": "The interactive WASM workbench is awesome and I am super happy about how it looks.",
+    "lessonLearned": "Value props are hard.",
+    "project": {
+      "name": "thunk",
+      "tagline": "Thunk teaches people coming home unique programming skills, focusing on open source contributions and low level programming, as a way to help them stand apart when entering the job market.",
+      "category": "Education",
+      "targetAudience": "This is a blend of an education and employment program geared toward those justice impacted individuals that are within their reentry window and want to add a differentiator on their resume. There is a glut of web devs and React experts. Delving into the world of open source and getting closer to the metal is one of the best ways to stand out in a job search plus the mailing lists are all meritocratic.",
+      "problem": "It provides a much needed alternative to the many reentry coding programs that only focus on web development. With LLMs these frontend shops will be the first to go. Thunk gives learners a much more in demand and scarce set of skills. It is trying to solve their employment problem by empowering them by providing tools to make real open source contributions. A merged commit on a resume speaks incredibly loud, the data backs this up. It is thunks goal to provide the initial stepping stop to these learners. It will not be easy, but for those who can stay focused it will be very rewarding.",
+      "keyFeatures": [
+        "The most important feature is the Launchpad which is the system that helps you find, hone and commit your first FOSS issue.",
+        "The Workbench is a live emulation of hardware that is used to demonstrate hard concepts as you go through the work. It is a great way to give learners a visual to the low-level concepts they will be working with.",
+        "The Lessons themselves as they are the core learning engine. We even have XP and levels baked in to help learners track progress."
+      ],
+      "biggestChallenge": "Honestly so far it has been making the lessons fun and engaging. Without that the fear is no one will bother getting to the good stuff. Initially it was just walls of text and multi-choice so it took a lot to make something fluid where the UX was not grating on your soul.",
+      "futurePlans": "So many more lessons, actual in-prison plan with supporting evidence, full blown Saleae lab. So many cool things honestly. My biggest thing is I believe you could easily get this past prison review. The hardware and software costs are negligible. And while it is definitely not easy work there are plenty of people who are capable of it.",
+      "techStack": [
+        "TypeScript",
+        "Rust",
+        "WebAssembly",
+        "SvelteKit 2 + Svelte 5 (runes)",
+        "Cloudflare",
+        "Freedoom (BSD)",
+        "Vite"
+      ],
+      "aiUsage": [
+        "In everything."
+      ],
+      "liveUrl": "https://thunk.goolz.org/",
+      "repositoryUrl": "https://github.com/melonmelonz/thunk",
+      "requiresLogin": false,
+      "screenshots": {
+        "desktop": "/presenters/penn-cameron-porterfield/desktop.webp",
+        "mobile": "/presenters/penn-cameron-porterfield/mobile.webp"
+      }
+    },
+    "links": {
+      "github": "https://github.com/melonmelonz",
+      "linkedin": "https://www.linkedin.com/in/cameron-porterfield-462675228?trk=people-guest_people_search-card",
+      "portfolio": "https://penn.goolz.org/"
+    },
+    "publishing": {
+      "approved": true,
+      "displayOrder": 0,
+      "permissions": []
+    }
+  },
+  {
+    "id": "katherine-kit-tensfeldt",
+    "slug": "katherine-kit-tensfeldt",
+    "name": "Katherine (Kit) Tensfeldt",
+    "bio": "Hi, I'm Katherine but I go by Kit. I am a full-stack developer who learned to code through the Persevere program and stuck around to teach the next cohort as a Teaching Assistant. I've got a real soft spot for design, and I care a lot about how an app looks and feels to use, not just whether it works. I like messy problems where the tech actually solves something real for people (or dogs too!). Give me a good reason to build something and I'm happy.",
+    "headshot": "/presenters/katherine-kit-tensfeldt/headshot.webp",
+    "proudestAccomplishment": "The participant journey. Case-management tools are usually built for staff, and the person the program serves gets a login and a mystery. Nova works the other way: participants always see where they are, what comes next, and what is still needed. That view is driven by live state across the whole system, statuses stay calm and neutral even when the news is hard, and a match only advances with the participant's consent. A warm, hand-crafted design makes a compliance-heavy tool feel human, and it is not a mockup: it runs in production behind 800+ tests.",
+    "lessonLearned": "Planning and documentation matter twice as much with AI: an agent can only meet expectations that are written down.",
+    "project": {
+      "name": "Project Nova",
+      "tagline": "Project Nova gives people coming home from prison a paycheck and a purpose by paying them to care for shelter animals who need a second chance as much as they do.",
+      "category": "Employment",
+      "targetAudience": "People returning from incarceration who are working toward lasting employment — and the program coordinators, partner animal shelters, and grant funders who support them through one clear, trauma-informed workflow.",
+      "problem": "Steady work is among the strongest predictors of a successful return from incarceration, yet formerly incarcerated people face unemployment near 27% — locked out by stigma, resume gaps, and missing credentials. The transitional-employment programs built to bridge that gap run on spreadsheets, email threads, and paper timesheets scattered across program staff, host worksites, and funders. Coordinators lose hours to admin instead of people, grant compliance is fragile, and participants can't see where they stand. Project Nova replaces that patchwork with one workflow platform — application, screening, training, matching, placement, weekly approved hours, and grant-ready reporting — so staff time goes back to people, funders get defensible data, and participants always know their next step.",
+      "keyFeatures": [
+        "A guided, trauma-informed participant journey — a plain-language application you can save and resume, transparent screening and interview steps, onboarding tasks and certifications, and matching that only moves forward with the participant's consent.",
+        "The Placement Workspace — one operational hub for every active placement: site, supervisor, and schedule assignment, funding, activation blockers, case notes, evaluations, incident reports, and the path to a permanent-employment outcome.",
+        "Audit-ready hours and grant reporting — participants log weekly hours, shelters approve or return them for correction, approved weeks lock permanently, and funders get hours-by-funding-source, outcome summaries, and scoped exports backed by a full audit trail."
+      ],
+      "biggestChallenge": "Building one system that three organizations could all trust. Program staff, host shelters, and funders share each placement, but every query is organization-scoped on the server, background checks are restricted to a single audited role, and approved timesheets lock permanently — verified by security tests that try to cross each boundary. The harder half was product: screening and rejection flows that are honest without being punitive, protecting dignity as strictly as the data.",
+      "futurePlans": "The career-transition chapter — the mission's real endgame. As placements wind down, participants would get a credential wallet, work-history record, and reference requests they own and take with them, while alumni outcome tracking gives funders longitudinal proof the model works. Alongside it: in-app messaging and reminders (interviews, timesheets) to replace the email glue between organizations, and blended funding so one placement can draw on multiple grants the way real programs do.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Neon",
+        "Vercel",
+        "Prisma",
+        "Clerk",
+        "Playwright",
+        "Vitest",
+        "Claude Code"
+      ],
+      "aiUsage": [
+        "Planning",
+        "UI Design",
+        "Architecture",
+        "Code Generation",
+        "Debugging",
+        "Documentation",
+        "Learning Concepts",
+        "Testing"
+      ],
+      "liveUrl": "https://project-nova.app/",
+      "repositoryUrl": "https://github.com/kithrine/project-nova",
+      "requiresLogin": true,
+      "demoCredentials": {
+        "username": "This is a real, working environment at project",
+        "password": "nova.app — not a mockup. The five accounts below each show a different side of the program: a participant's journey, the operations pipeline, a shelter's approvals, grant reporting, and administration.\n\nPlease explore freely. Every name, application, and timesheet is fictional demo data — nothing you approve, reject, submit, or edit affects a real person or program, and the environment resets itself regularly. You genuinely can't break anything.\n\n*Sign in with any account — they all share the same password: NovaDemo2026!\n\n- Participant (Katie's journey): participant@project-nova.app\n- Program coordinator: ops@project-nova.app\n- Shelter manager: shelter@project-nova.app\n- Grant administrator: grants@project-nova.app\n- Administrator: admin@project-nova.app\nPassword for all five: NovaDemo2026!"
+      },
+      "screenshots": {
+        "desktop": "/presenters/katherine-kit-tensfeldt/desktop.webp",
+        "mobile": "/presenters/katherine-kit-tensfeldt/mobile.webp"
+      }
+    },
+    "links": {
+      "github": "https://github.com/kithrine",
+      "linkedin": "https://www.linkedin.com/in/kithrine/",
+      "portfolio": "https://kithrine.vercel.app/"
+    },
+    "publishing": {
+      "approved": true,
+      "displayOrder": 0,
+      "permissions": []
+    }
+  }
+]
